@@ -1,0 +1,11 @@
+# Force Runing Backup
+/usr/local/cpanel/bin/backup
+
+Options
+The /usr/local/cpanel/bin/backup script accepts the following options:
+
+Option	Description	Example
+debug	Runs the backup in the foreground and prints its progress on the command line.	--debug
+force	Performs an additional backup, even if the system already contains up-to-date backup files.	--force
+allow-override	When the system performs the backup, use the pkgacct script in the the /var/cpanel/lib/Whostmgr/Pkgacct/pkgacct directory.	--allow-override
+help	Displays additional information.	--help
